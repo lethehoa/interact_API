@@ -58,9 +58,9 @@ do
     echo "2. Return a specific user"
     echo "3. Add a new user"
     echo "4. Sync user from file"
-    echo "4. Modify a public key of specific user" 
-    echo "5. Delete a user" 
-    echo "6. Exit"
+    echo "5. Modify a public key of specific user" 
+    echo "6. Delete a user" 
+    echo "7. Exit"
     read -p "ENTER YOUR CHOICE: " user_choice
 
     case $user_choice in
@@ -71,7 +71,7 @@ do
         5) modify_an_user;;
         6) delete_an_user;;
         *)
-            if [ $user_choice -eq 6 ]
+            if [ $user_choice -eq 7 ]
             then
                 echo "EXISTING!!!!!!"
             else
@@ -79,7 +79,7 @@ do
             fi
             ;;
     esac
-    if [ $user_choice -eq 6 ]
+    if [ $user_choice -eq 7 ]
     then
         break
     fi
