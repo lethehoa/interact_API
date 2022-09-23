@@ -23,7 +23,8 @@ https://github.com/lethehoa/interact_API.git
 ```
 
 Giao diện khởi chạy:
-![GUI](https://i.imgur.com/L146zJU.png)
+
+![GUI](https://i.imgur.com/IqMHKKp.png)
 
 <hr>
 
@@ -35,7 +36,7 @@ Hiện tại chỉ mới test trên 2 con switch là:
 - NXOS 1 - 9K
 - NXOS 1 - Titanium
 
-Để test thêm cần nhập thông tin vào một file information trên máy Management tại vị trí: **/root/ssh-key/information.txt** với thứ tự nhập sau:
+Để test thêm cần nhập thông tin vào một file information trên máy Management tại vị trí: **/root/information.txt** với thứ tự nhập sau:
 
 > IP Password Port
 

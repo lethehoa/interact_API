@@ -47,7 +47,8 @@ function modify_an_user() {
 function delete_an_user() {
     read -p "Please enter username that you want to remove: " delete_username
     curl -X DELETE 103.90.224.249:1234/user/$delete_username
-    rm -f /root/ssh-key/$delete_username
+    # delete_path = $delete_username + ".pub"
+    # rm -f /root/ssh-key/$delete_username
 }
 
 while true 
